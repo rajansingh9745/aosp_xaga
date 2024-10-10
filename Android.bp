@@ -66,9 +66,6 @@ cc_library_shared {
     name: "libhardware_legacy",
     defaults: ["libpower_defaults"],
     vendor_available: true,
-    vndk: {
-        enabled: true,
-    },
 
     shared_libs: [
         "android.system.suspend-V1-ndk",
